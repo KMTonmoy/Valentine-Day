@@ -1,3 +1,4 @@
+alert("Application created by Tonmoy.")
 const yesButton = document.getElementById("yesButton");
 const noButton = document.getElementById("noButton");
 const yesContent = document.getElementById("yesContent");
