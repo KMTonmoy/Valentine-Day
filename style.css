@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
+
+body {
+    font-family: "Great Vibes", cursive;
+    background-color: #ffe6ea;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    overflow: hidden;
+}
+
+.container {
+    text-align: center;
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    top: 25%;
+}
+
+h1 {
+    color: #e6005c;
+    font-size: 3em;
+}
+
+p {
+    color: #7d4e57;
+    font-size: 30px;
+}
+
+.buttons {
+    margin-top: 20px;
+}
+
+button {
+    padding: 15px 30px;
+    background-color: #e6005c;
+    color: white;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    font-size: 1.1em;
+    transition: all 0.3s ease;
+}
+
+button:hover {
+    background-color: #ff99b7;
+}
+
+.hidden {
+    display: none;
+}
+
+.gif-img {
+    width: 70%;
+    border-radius: 20px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+}
+
+.romantic-message {
+    margin-top: 15px;
+    color: #7d4e57;
+    font-size: 20px;
+    line-height: 1.6;
+}
+
+#yesContent {
+    text-align: center;
+    font-size: 30px;
+}
